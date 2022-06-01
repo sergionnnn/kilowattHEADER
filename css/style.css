@@ -11,13 +11,9 @@
     src: url(fonts/RobotoCondensed-Regular.ttf); 
    }
 
-svg {
-    cursor: pointer;
-}
 
 h2 {
     font-family: Roboto-Bold;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -25,7 +21,6 @@ h2 {
 }
 h3{
     font-family: Roboto-Regular;
-    font-style: normal;
     font-weight: 400;
     line-height: 19px;
     color: #332E2E;
@@ -34,7 +29,6 @@ h3{
 
 h1 {
     font-family: Roboto-Bold;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 28px;
@@ -43,17 +37,14 @@ h1 {
 
 p{
     font-family: Roboto-Regular;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 35px;
     color: rgba(89, 84, 84, 1);
 }
 span{
-
     white-space: nowrap; 
     font-family: Roboto-Regular;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -68,22 +59,15 @@ header{
     margin-bottom: 50px;
 }
 
-
-
 .menu-list ul li h3:hover{
     color: #0e4591;;
 }
-
-
-header .blue-button{
+header .blue-button1{
     
     border-radius: 0px 12px;
 }
-header .white-button{
-    
-    border-radius: 0px 12px;
-}
-.blue-button{
+
+.blue-button1{
     background-color: #1771F1;
     border: 1px;
     transition: 0.5s;
@@ -92,21 +76,17 @@ header .white-button{
     text-align: left;
     border: solid 1px white;
 }
-.blue-button span{
+.blue-button1 span{
     
     transition: 1s;
     color:white;
 }
 
-
-
-
-
-.blue-button:hover{
+.blue-button1:hover{
     background-color: white;
     border: solid 1px #1771F1;
 }
-.blue-button:hover span{
+.blue-button1:hover span{
     color: #1771F1;
     
 }
@@ -115,13 +95,13 @@ header .white-button{
     gap:10px;
     justify-content: end;
 }
-.first-row{  
+.first{  
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     margin-bottom: 15px;
 }
-.second-row{
+.second{
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
 }
@@ -137,71 +117,30 @@ header .white-button{
 .border {
     margin:20px 0;
 }
-.info-block{
-    width: 90%;
-    padding-bottom: 40px;
 
-}
-header .white-button span{
-    font-size: 18px;
-}
-.border .blue-button{
+
+.border .blue-button1{
     text-align: center;
     padding: 15px;
     border-radius: 30px;
     width: 200px;
     height: auto
 }
-.border .blue-button span{
+.border .blue-button1 span{
     font-size: 14px;
 }
-.white-button{
-    background-color: #1771F1;
-    border: solid #1771F1 1px;
-    transition: 1s;
-    padding: 15px;
-    border-radius: 30px;
-    transition: 0.5s;
-    cursor:pointer;
-    
-}
-.white-button:hover{
-    background-color: white;
-    
-}
+
+
 .submit:hover path{
     fill:green;
 }
-.white-button:hover span{
-    color: #1771F1;
-    
-}
 
-.white-button span{
-    transition: 1s;
-    font-size: 14px;
-    color: whitesmoke;
-}
-.border .white-button {
-    text-align: center;
-    padding: 15px;
-    width: 200px;
-    height: auto;
-    
-}
+
 .button-panel{
     display: flex;
     width: 75%;
     grid-template-columns: 100px 1fr;
     gap: 10px;
-}
-.info{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    height: 700px;
-    overflow: auto;
 }
 
 
@@ -243,10 +182,7 @@ ul,ol{
     color: rgba(234, 234, 234, 1);
     text-transform:uppercase;
 }
-.hh{
-    color: rgba(163, 163, 163, 1);
-    margin: 10px 0;
-}
+
 
 .map-container{
     width: 100%;
@@ -260,13 +196,13 @@ a{
     text-decoration: none;
     outline: none;
 }
-.first-row a h2:hover{
+.first a h2:hover{
     color: #1771F1;
 }
-.first-row svg:hover path{
+.first svg:hover path{
     fill: #1771F1;
 }
-.first-row a h2{
+.first a h2{
     color: black;
 }
 
@@ -281,9 +217,7 @@ a{
 .contacts{
     display: none;
 }
-svg#aside-el:hover path {
-    fill: #0e4591;
-}
+
 .map{
     display: block;
     padding: 0px;
@@ -317,9 +251,7 @@ select{
     left: 0;
     height: 0;
     overflow: hidden;
-    
     width: 99%;
-    
     padding: 5px;
     transition:ease-in-out 1s;
 }
@@ -348,24 +280,19 @@ select{
     display: flex;
     gap:10px;
 }
-.blocks{
-    display: block;
-}
 
 
 @media(min-width:470px){
-    .info{
-        height: 650px;
-    }
+   
 
-    .first-row{
+    .first{
         column-gap: 5px;
         align-items: center;
         display: grid;
         grid-template-columns: 1fr 2fr 2fr ;    
         margin-bottom: 25px;
     }
-    .second-row{
+    .second{
         column-gap: 10px;
         display: grid;
         grid-template-columns: 2fr 1fr  2fr
@@ -389,7 +316,7 @@ select{
         display: none;
         
     }
-    
+
 
     .find-panel{
         display: flex;
@@ -400,17 +327,15 @@ select{
     .main{
         max-width: 97%;
     }
-    .second-row{
+    .second{
         column-gap: 10px;
         align-items: center;
-        
         display: grid;
         grid-template-columns: 1fr 4fr 2fr 3fr;
     }
-    .first-row{
+    .first{
         column-gap: 10px;
         align-items: center;
-        
         display: grid;
         grid-template-columns: 1fr 2fr 2fr ;
         margin-bottom: 15px;
@@ -440,13 +365,8 @@ select{
     }
 }
 
-@media(min-width:1024px){
-    .blocks{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 20px;
-    }
-    
+@media(min-width:1020px){
+
     .menu{
         display: block;
     }
@@ -458,7 +378,7 @@ select{
     .your-city{
         display: block;
     }
-    .first-row{
+    .first{
         align-items: center;
         
         display: grid;
@@ -466,7 +386,7 @@ select{
         grid-template-columns: 2fr 3fr 2fr 1fr;
         margin-bottom: 15px;
     }
-    .second-row{
+    .second{
         column-gap: 10px;
         align-items: center;
         
@@ -482,15 +402,13 @@ select{
         position: relative;
     }
     
-    .find-panel{
-        width: 95%;
-    }
+   
   
 
     
     
 }
-@media(min-width:1280px){
+@media(min-width:1200px){
     .menu-list ul li {
         list-style: none;
         display: inline-table;
@@ -502,7 +420,7 @@ select{
         display: block;
         margin: auto 0px;
     }
-    .first-row{
+    .first{
         align-items: center;
         
         display: grid;
@@ -510,7 +428,7 @@ select{
         grid-template-columns: 1fr 5fr 1fr 0.5fr;
         margin-bottom: 15px;
     }
-    .second-row{
+    .second{
         column-gap: 10px;
         align-items: center;
         
