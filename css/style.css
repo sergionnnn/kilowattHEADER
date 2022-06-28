@@ -305,6 +305,15 @@ select{
     padding: 20px;
 }
 
+.info2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 450px;
+    overflow: auto;
+}
+
 .border .bluebutton1{
     text-align: center;
     padding: 5px;
@@ -332,7 +341,7 @@ select{
 .punctums{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 10fr;
+    grid-template-columns: 0.3fr 10fr;
 }
 
 .map-container{
@@ -354,16 +363,7 @@ select{
 
 }
 
-.info{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    height: 700px;
-    overflow: auto;
 
-
-}
 
 .blocks{
     display: block;
@@ -426,6 +426,11 @@ footer{
 
 .otst{
     margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    
+    font-size: 18px;
 }
 
 .numb{
