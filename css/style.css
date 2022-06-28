@@ -350,6 +350,7 @@ select{
 .info-block{
     width: 90%;
     padding-bottom: 40px;
+    margin-left: 20px;
 
 }
 
@@ -423,6 +424,15 @@ footer{
     justify-content: space-between;
 }
 
+.otst{
+    margin-left: 5px;
+}
+
+.numb{
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
 @media(min-width:470px){
    
 
@@ -441,6 +451,15 @@ footer{
         column-gap: 10px;
         display: grid;
         grid-template-columns: 2fr 1fr  2fr
+    }
+
+    .map-container{
+        
+        height: 100%;
+    }
+
+    .otst{
+        margin-left: 15px;
     }
 }
 
@@ -510,6 +529,13 @@ footer{
     .cart p{
         font-size: 16px;
     }
+
+    .numb{
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    
 }
 
 @media(min-width:1020px){
@@ -639,5 +665,10 @@ footer{
         margin: 0 2px;
         position: relative;
         
+    }
+
+    .numb{
+        margin: 0 auto;
+        margin-left: 10px;
     }
 }
