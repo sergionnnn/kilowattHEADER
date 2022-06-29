@@ -346,13 +346,15 @@ select{
 }
 
 .map-container{
-    width: 100%;
+    width: 90%;
     height: 300px;
+   
+    margin: 0px;
 }
 
 .map{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
 
     
 }
@@ -439,6 +441,8 @@ footer{
     margin-left: 20px;
 }
 
+
+
 @media(min-width:470px){
    
 
@@ -460,8 +464,12 @@ footer{
     }
 
     .map-container{
+
+        margin-left: 20px;
+        height: 300px;
+        width: 95%;
         
-        height: 100%;
+        
     }
 
     .otst{
@@ -487,6 +495,12 @@ footer{
         display: none;
         
     }
+
+    
+
+    
+
+
 
     
 
@@ -523,13 +537,15 @@ footer{
 
         
     }
-    .map-container{
-        width: 100%;
-        height: 100%;
-    }
+ 
     .header-buttons{
         display: flex;
         gap:5px;
+    }
+
+    .map-container{
+        
+        height: 100%;
     }
     
 
